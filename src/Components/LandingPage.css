@@ -24,11 +24,14 @@ body {
   }
   
   .header-title {
-    font-size: 3rem;
-    color: white;
-    font-weight: bold;
-    margin: 0;
-  }
+    font-size: 4rem; /* Larger font size to draw attention */
+    font-weight: bold; /* Keeps the text bold */
+    color: white; /* A bright, contrasting color (Tomato Red) for high visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds a subtle shadow for emphasis */
+    margin: 20px 0; /* Adds space above and below the header */
+    text-align: center; /* Centers the header horizontally */
+    letter-spacing: 2px; /* Adds space between letters for better readability */
+}
   
   .header-subtitle {
     font-size: 1.2rem;
